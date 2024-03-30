@@ -84,3 +84,11 @@ body {
   align-items: center;
   line-height: 1px;
 }
+.error-input {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}

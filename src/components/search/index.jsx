@@ -7,6 +7,7 @@ export default function Search({search, setSearch, handleSearch}) {
                 type="text"
                 name="search"
                 placeholder="City Name"
+                autoComplete="off"
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}/>
             <button onClick={handleSearch}>
